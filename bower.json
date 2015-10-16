@@ -1,0 +1,29 @@
+{
+  "name": "proteo4-test-wrapper",
+  "version": "0.13.2",
+  "homepage": "https://github.com/javierrca/proteo4-test-wrapper",
+  "authors": [
+    "JRC"
+  ],
+  "description": "prot wrapper",
+  "main": ["wrapper-dist.js", "wrapper.css"],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",	
+    "bower_components",
+    "src",
+    "test",
+	"*.html",
+    "examples"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.18",
+	"proteo4-test-customer": ""
+  },
+  "devDependencies": {
+    "jquery": "~1.11",
+    "angular-sanitize": ">=1.2.18",
+    "angular-mocks": ">=1.2.18"
+  }
+}
