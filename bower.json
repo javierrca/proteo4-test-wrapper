@@ -10,7 +10,7 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "node_modules",	
+    "node_modules",
     "bower_components",
     "src",
     "test",
@@ -19,7 +19,9 @@
   ],
   "dependencies": {
     "angular": ">=1.2.18",
-	"proteo4-test-customer": ""
+	 "proteo4-test-customer": "",
+     "ui-select":""
+
   },
   "devDependencies": {
     "jquery": "~1.11",
